@@ -1,0 +1,17 @@
+{
+  "java.enabled": true,
+  "java.format.enabled": true,
+  "java.format.comments.enabled": true,
+  "java.format.settings.url": "/Users/tb/.config/nvim/eclipse-java-google-style.xml",
+  "java.format.settings.profile": "GoogleStyle",
+  "java.format.onType.enabled": true,
+  "java.saveActions.organizeImports": false,
+  "java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+  "xml.java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+  "java.jdt.ls.vmargs": "-javaagent:/Users/tb/.config/nvim/lombok.jar -Xbootclasspath/a:/Users/tb/.config/nvim/lombok.jar -noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
+  "xml.validation.enabled": false,
+  "xml.validation.noGrammar": "ignore",
+
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": false
+}

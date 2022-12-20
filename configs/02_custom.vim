@@ -146,6 +146,8 @@ map <F4> :AddHeader<CR>
 nnoremap <C-f> :call CocAction("format")<CR>
 autocmd FileType java nnoremap <C-e> :CocCommand java.action.organizeImports<CR>
 
+autocmd FileType cs let b:coc_diagnostic_disable=1
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 " unicodeescape.vim - Escape/Unescape unicode string.
 function! UnicodeEscapeString(str)

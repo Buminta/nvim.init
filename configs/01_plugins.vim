@@ -21,6 +21,10 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
 Plug 'vim-syntastic/syntastic'
 Plug 'rhysd/vim-clang-format'
+Plug 'OmniSharp/omnisharp-vim'
+Plug 'fadein/vim-figlet'
+Plug 'iamcco/coc-flutter'
+Plug 'dart-lang/dart-vim-plugin'
 
 " Elixir plugs
 Plug 'elixir-editors/vim-elixir'

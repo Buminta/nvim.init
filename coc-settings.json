@@ -11,10 +11,9 @@
   "java.jdt.ls.vmargs": "-javaagent:/Users/tb/.config/nvim/lombok.jar -Xbootclasspath/a:/Users/tb/.config/nvim/lombok.jar -noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
   "xml.validation.enabled": false,
   "xml.validation.noGrammar": "ignore",
-
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
   "eslint.enable": true,
   "eslint.autoFixOnSave": false,
-
-  "languageserver": {
-  }
+  "languageserver": {}
 }

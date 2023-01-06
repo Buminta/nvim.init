@@ -8,7 +8,7 @@ set autoread
 
 set hlsearch " Highlight search
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-autocmd FileType java set tabstop=4|set shiftwidth=4|set expandtab
+" autocmd FileType java set tabstop=4|set shiftwidth=4|set expandtab
 
 set updatetime=100
 set colorcolumn=100
@@ -138,13 +138,14 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 
 " Vim header
 let g:header_field_author = 'Tan Bui'
-let g:header_field_author_email = 'tan.bui@bnksolution.com'
+let g:header_field_author_email = 'tb@tempo-soft.com'
 let g:header_auto_add_header = 0
 map <F4> :AddHeader<CR>
 """"""""""""""
 
 nnoremap <C-f> :call CocAction("format")<CR>
-autocmd FileType java nnoremap <C-e> :CocCommand java.action.organizeImports<CR>
+nnoremap <C-e> :call CocAction('organizeImport')<CR>
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 autocmd FileType cs let b:coc_diagnostic_disable=1
 

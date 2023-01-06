@@ -13,8 +13,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'junegunn/fzf', { 'build': './install --all', 'merged': 0 }
-Plug 'junegunn/fzf.vim', { 'depends': 'fzf' }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'ervandew/supertab'
 Plug 'chriskempson/base16-vim'
 Plug 'ryanoasis/vim-devicons'

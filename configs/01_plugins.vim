@@ -117,6 +117,7 @@ autocmd FileType javascript let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 
 " Settings for gutentags
 set statusline+=%{gutentags#statusline()}
+let g:gutentags_ctags_exclude = ["*.min.js", "*.min.css", "build", "vendor", ".git", "node_modules", "*.vim/bundle/*", "@.gitignore", "@.ctagsignore"]
 
 " Settings for auto-pairs
 let g:AutoPairsMultilineClose = 0
